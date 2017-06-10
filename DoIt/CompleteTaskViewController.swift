@@ -13,6 +13,7 @@ class CompleteTaskViewController: UIViewController {
     var task : Task? = nil
     
     @IBOutlet weak var taskLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

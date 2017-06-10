@@ -58,7 +58,6 @@ class TasksViewController: UIViewController, UITableViewDelegate, UITableViewDat
         
         do {
             tasks = try context.fetch(Task.fetchRequest()) as! [Task]
-            print(tasks)
         } catch {
             print("OOPS WE HAVE AN ERROR")
         }

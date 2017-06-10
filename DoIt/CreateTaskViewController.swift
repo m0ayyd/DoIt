@@ -31,7 +31,6 @@ class CreateTaskViewController: UIViewController {
         (UIApplication.shared.delegate as! AppDelegate).saveContext()
         
         // Pop back
-        
         navigationController!.popViewController(animated: true)
     }
 }
